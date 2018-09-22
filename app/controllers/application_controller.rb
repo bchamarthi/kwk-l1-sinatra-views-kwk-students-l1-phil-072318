@@ -6,7 +6,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-  	erb :homepage
+  	erb :homebase
   end
   
   get '/basicliving' do
